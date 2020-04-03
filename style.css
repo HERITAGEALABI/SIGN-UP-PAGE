@@ -1,0 +1,106 @@
+
+body{
+    background-color: #ADD8E6;
+}
+img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+  box-sizing: border-box;
+  padding: 10px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    background-color:white ;
+    border-radius: 2%;
+    margin-top: 5%;
+    font-family: Arial Narrow, sans-serif;
+}
+h2{
+    margin-bottom: 3%;
+    text-align: center;
+    color:#ADD8E6;
+}
+p{
+    text-align: center;
+}
+label{
+    margin-left: 5vw;
+}
+input[type=text] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 2%;
+    background-color: rgba(223, 238, 243, 0.911);
+    margin-left: 5vw;
+}
+input[type=password] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 2%;
+    background-color: rgba(223, 238, 243, 0.911);
+    margin-left: 5vw; 
+}
+input[type=tel] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 2%;
+    background-color: rgba(223, 238, 243, 0.911);
+    margin-left: 5vw;
+}
+input[type=url] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 2%;
+    border: none;
+    background-color: rgba(223, 238, 243, 0.911);
+    margin-left: 5vw;
+}
+#media{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 2%;
+    background-color: rgba(223, 238, 243, 0.911);
+    margin-left: 5vw;
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    font:normal 4vm Arial, Sans-Serif;
+    color:black;
+  
+
+}
+input[type=submit] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 9%;
+    resize: vertical;
+    background-color: #ADD8E6;
+    color: white;
+    display: block;
+    margin-bottom: 11%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(131, 184, 207);
+}
+.footer{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+.footer p:hover{
+    color: gray;
+}
